@@ -1,0 +1,55 @@
+venv
+# Archivos y directorios comunes de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editor de texto/IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+pip-log.txt
+pip-delete-this-directory.txt
+Air
+fast
+
+# Archivos de Python compilados
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de salida de prueba/unittest
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de distribución
+dist/
+build/
+*.egg-in

@@ -2,17 +2,20 @@
 
 ```bash
 .
-├── app
-│   ├── main.py          # API en FastAPI
-│   └── models.py        # Modelos de predicción (Machine Learning)
-├── streamlit_app
-│   └── app.py           # Interfaz de usuario en Streamlit
-├── models
-│   └── model.pkl        # Modelo entrenado en formato pickle
-├── README.md            # Este archivo
-├── requirements.txt     # Dependencias del proyecto
-└── notebooks
-    └── EDA.ipynb        # Análisis exploratorio de datos
+├── app/                      # Código de la aplicación principal
+├── data/                     # Datos usados para el análisis y predicciones
+├── documentation/            # Documentación del proyecto
+├── frontend/                 # Archivos del frontend, interfaz de usuario
+├── metrics/                  # Archivos relacionados con métricas y evaluación
+├── models/                   # Modelos entrenados y relacionados
+├── notebooks/                # Jupyter Notebooks para análisis y experimentación
+├── tests/                    # Pruebas automatizadas del proyecto
+├── .gitignore                # Ignorar archivos y carpetas en git
+├── Dockerfile                # Configuración para Dockerizar la aplicación
+├── README.md                 # Documentación principal del proyecto
+├── docker-compose.yml        # Configuración de Docker Compose para el entorno
+└── requirements.txt          # Dependencias y librerías necesarias para el proyecto
+
 
 
 
@@ -27,7 +30,6 @@ Este proyecto implementa un sistema de predicción de satisfacción de clientes 
 
 Te recomendamos crear y activar un entorno virtual para gestionar las dependencias. Puedes hacerlo con los siguientes comandos:
 
-
 python -m venv env  # Crea el entorno virtual con nombre 'env'
 source env/bin/activate  # Activa el entorno en Unix/Mac
 .\env\Scripts\Activate  # Activa el entorno en Windows
@@ -36,6 +38,8 @@ Para desactivar el entorno:
 deactivate
 
 Instala las dependencias ejecutando:
+
+
 pip install -r requirements.txt
 
 🛠️ Características del Proyecto
